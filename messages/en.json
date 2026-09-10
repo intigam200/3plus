@@ -1,0 +1,437 @@
+{
+  "common": {
+    "scrollToTop": "Scroll to top"
+  },
+  "metadata": {
+    "title": "3PLUS — Distribution · Corporate Supply · International Sourcing",
+    "description": "3PLUS is a B2B distributor for HoReCa, corporate, and premium sourcing needs in Azerbaijan."
+  },
+  "nav": {
+    "home": "Home",
+    "brands": "Brands",
+    "solutions": "Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "businessEnquiry": "Business Enquiry"
+  },
+  "hero": {
+    "eyebrow": "Distribution · Corporate Supply · International Sourcing",
+    "title": "Selected Brands. Reliable Supply. Smarter Sourcing.",
+    "subtitle": "International products and sourcing solutions for HoReCa, offices, and business clients across Azerbaijan.",
+    "ctaPrimary": "Explore Brands",
+    "ctaSecondary": "Become a Partner",
+    "imageAlt": "3PLUS product range — plant-based milk, chocolate, and coffee syrups"
+  },
+  "brands": {
+    "eyebrow": "Our Brands",
+    "heading": "Professional brands. One trusted supplier.",
+    "sweetbird": {
+      "name": "Sweetbird",
+      "tagline": "Creative beverage solutions — Syrups · Frappés"
+    },
+    "zuma": {
+      "name": "Zuma",
+      "tagline": "Premium café beverages — Hot Chocolate · Matcha · Chai · Sauces"
+    },
+    "thebridge": {
+      "name": "The Bridge",
+      "tagline": "Organic Plant-Based Drinks — Oat · Almond · Coconut Barista"
+    }
+  },
+  "brandPages": {
+    "breadcrumbHome": "Home",
+    "breadcrumbBrands": "Brands",
+    "exploreProducts": "Explore Products",
+    "contactSales": "Contact Sales",
+    "productsHeading": "Products",
+    "moreFromBrand": "More from {brand}",
+    "backToBrand": "Back to {brand}",
+    "productCategories": {
+      "frappe": "Frappé",
+      "classicSyrups": "Classic Syrups",
+      "creativeSyrups": "Creative Syrups",
+      "sugarFree": "Sugar-Free",
+      "hotChocolate": "Hot Chocolate",
+      "matcha": "Matcha",
+      "chai": "Chai",
+      "sauces": "Sauces",
+      "barista": "Barista Range"
+    },
+    "sweetbird": {
+      "heroTitle": "Sweetbird",
+      "heroDescription": "Creative syrups and frappés crafted in Bristol, UK — trusted by baristas for bold flavour and consistent quality.",
+      "features": {
+        "flavours": { "title": "90+ flavours", "description": "From classic to creative" },
+        "vegan": { "title": "Vegan approved", "description": "Over 90% vegan certified" },
+        "accredited": { "title": "BRC accredited", "description": "Global food safety standard" },
+        "origin": { "title": "Made in Bristol, UK", "description": "Crafted in our own facility" }
+      },
+      "aboutHeading": "About Sweetbird",
+      "aboutText": "Born in Bristol, UK in 2006 — Sweetbird set out to challenge convention by creating extraordinary syrups and smoothies. Over 18 years later, the award-winning range delivers exceptional taste with versatility and simplicity. BRC Global Standard accredited for food safety.",
+      "ctaHeading": "Interested in Sweetbird for your business?"
+    },
+    "zuma": {
+      "heroTitle": "Zuma",
+      "heroDescription": "Premium café beverage solutions — rich hot chocolate, authentic matcha, and aromatic chai for professional baristas.",
+      "features": {
+        "indulgent": { "title": "Rich & indulgent", "description": "Premium café-quality recipes" },
+        "natural": { "title": "Natural ingredients", "description": "No artificial colours" },
+        "barista": { "title": "Barista-crafted", "description": "Designed for professionals" },
+        "trusted": { "title": "Trusted worldwide", "description": "Served in cafés globally" }
+      },
+      "aboutHeading": "About Zuma",
+      "aboutText": "Zuma creates premium café beverage solutions — from rich, indulgent hot chocolate to authentic Japanese matcha and aromatic chai. Designed for baristas who want consistent quality and bold flavour in every cup.",
+      "ctaHeading": "Interested in Zuma for your business?"
+    },
+    "thebridge": {
+      "heroTitle": "The Bridge",
+      "heroDescription": "Italian organic plant-based drinks, since 1994 — a Barista range formulated to froth, steam, and pour like dairy.",
+      "features": {
+        "organic": { "title": "100% organic", "description": "Certified organic ingredients" },
+        "plantBased": { "title": "Plant-based", "description": "Dairy-free, vegan, natural" },
+        "origin": { "title": "Made in Italy", "description": "Italian organic tradition" },
+        "barista": { "title": "Barista range", "description": "Froths and steams perfectly" }
+      },
+      "aboutHeading": "About The Bridge",
+      "aboutText": "An Italian organic pioneer — The Bridge has been producing plant-based drinks since 1994. Their Barista range is specifically formulated for professional coffee service: it froths, steams, and pours like dairy, with clean organic ingredients.",
+      "ctaHeading": "Interested in The Bridge for your business?"
+    }
+  },
+  "comingSoonBanners": {
+    "badge": "Coming Soon",
+    "coffee": {
+      "title": "Coffee",
+      "description": "Professional Italian coffee solutions for your business."
+    },
+    "cleaning": {
+      "title": "Professional Cleaning",
+      "description": "Professional hygiene solutions for HoReCa and businesses."
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "heading": "Solutions for your business",
+    "learnMore": "Learn more",
+    "comingSoon": "Coming Soon",
+    "coffeeShops": {
+      "title": "Coffee Shops",
+      "features": ["Plant-based milk", "Matcha", "Chai", "Frappé", "Chocolate"]
+    },
+    "hotelsRestaurants": {
+      "title": "Hotels & Restaurants",
+      "features": ["Beverage solutions", "Breakfast solutions", "Plant-based alternatives"]
+    },
+    "bakeries": {
+      "title": "Bakeries & Dessert Shops",
+      "features": ["Frappé", "Chocolate", "Matcha", "Speciality ingredients"]
+    },
+    "cleaning": {
+      "title": "Professional Cleaning",
+      "description": "Hygiene solutions for HoReCa and business."
+    }
+  },
+  "productCatalog": {
+    "sweetbirdVanillaSyrup": {
+      "brand": "Sweetbird",
+      "name": "Vanilla Syrup",
+      "packSize": "1 litre",
+      "description": "Classic vanilla syrup for coffee and desserts."
+    },
+    "sweetbirdCaramelSyrup": {
+      "brand": "Sweetbird",
+      "name": "Caramel Syrup",
+      "packSize": "1 litre",
+      "description": "Smooth caramel syrup for coffee and desserts."
+    },
+    "sweetbirdCaffeFrappe": {
+      "brand": "Sweetbird",
+      "name": "Caffè Frappé",
+      "packSize": "4 × 1 kg",
+      "description": "Creamy frappé base for iced coffee drinks."
+    },
+    "sweetbirdGrenadineSyrup": {
+      "brand": "Sweetbird",
+      "name": "Grenadine Syrup",
+      "packSize": "1 litre",
+      "description": "Bright, fruity grenadine for drinks and desserts."
+    },
+    "zumaDarkHotChocolate": {
+      "brand": "Zuma",
+      "name": "Dark Hot Chocolate",
+      "packSize": "8 × 1 kg",
+      "description": "Rich, intense hot chocolate for professional use."
+    },
+    "zumaOriginalMatcha": {
+      "brand": "Zuma",
+      "name": "Original Matcha",
+      "packSize": "10 × 100 g",
+      "description": "Smooth, vibrant matcha for lattes and drinks."
+    },
+    "zumaSpicedChai": {
+      "brand": "Zuma",
+      "name": "Spiced Chai",
+      "packSize": "1 kg",
+      "description": "Warming spiced chai blend for lattes."
+    },
+    "zumaVanillaChai": {
+      "brand": "Zuma",
+      "name": "Vanilla Chai",
+      "packSize": "1 kg",
+      "description": "Smooth vanilla chai blend for lattes."
+    },
+    "zumaDarkChocolateSauce": {
+      "brand": "Zuma",
+      "name": "Dark Chocolate Sauce",
+      "packSize": "1 litre",
+      "description": "Rich chocolate sauce for drizzling and desserts."
+    },
+    "zumaWhiteChocolateSauce": {
+      "brand": "Zuma",
+      "name": "White Chocolate Sauce",
+      "packSize": "1 litre",
+      "description": "Creamy white chocolate sauce for drizzling and desserts."
+    },
+    "bridgeOatBarista": {
+      "brand": "The Bridge",
+      "name": "Oat Barista",
+      "packSize": "1 litre",
+      "description": "Organic oat drink that foams perfectly for barista use."
+    },
+    "bridgeAlmondBarista": {
+      "brand": "The Bridge",
+      "name": "Almond Barista",
+      "packSize": "1 litre",
+      "description": "Organic almond drink, smooth and barista-ready."
+    },
+    "bridgeCoconutBarista": {
+      "brand": "The Bridge",
+      "name": "Coconut Barista",
+      "packSize": "1 litre",
+      "description": "Organic coconut drink that froths beautifully."
+    }
+  },
+  "productDescriptions": {
+    "caffeFrappe": "Creamy frappé base for iced coffee drinks.",
+    "vanillaSyrup": "Classic vanilla syrup for coffee and desserts.",
+    "caramelSyrup": "Smooth caramel syrup for coffee and desserts.",
+    "blueCuracaoSyrup": "Vivid blue syrup for creative cocktails and mocktails.",
+    "grenadineSyrup": "Bright, fruity grenadine for drinks and desserts.",
+    "saltedCaramelSyrup": "Rich salted caramel syrup with a savoury edge.",
+    "mangoSyrup": "Tropical mango syrup for fruity iced drinks.",
+    "sfCaramelSyrup": "Sugar-free caramel syrup — full flavour, no sugar.",
+    "sfVanillaSyrup": "Sugar-free vanilla syrup — full flavour, no sugar.",
+    "darkHotChocolate": "Rich, intense hot chocolate for professional use.",
+    "whiteHotChocolate": "Creamy white hot chocolate for professional use.",
+    "originalMatcha": "Smooth, vibrant matcha for lattes and drinks.",
+    "spicedChai": "Warming spiced chai blend for lattes.",
+    "vanillaChai": "Smooth vanilla chai blend for lattes.",
+    "darkChocolateSauce": "Rich chocolate sauce for drizzling and desserts.",
+    "whiteChocolateSauce": "Creamy white chocolate sauce for drizzling and desserts.",
+    "oatDrinkBarista": "Organic oat drink that foams perfectly for barista use.",
+    "almondDrinkBarista": "Organic almond drink, smooth and barista-ready.",
+    "coconutDrinkBarista": "Organic coconut drink that froths beautifully."
+  },
+  "solutionPages": {
+    "coffeeShops": {
+      "heroTitle": "Coffee shop solutions",
+      "heroSubtitle": "Premium beverages and ingredients for your café",
+      "problemHeading": "Why choose 3PLUS for your café",
+      "problemText": "Running a café means balancing quality with consistency. Your baristas need reliable plant-based milk that froths perfectly, syrups that taste the same every cup, and specialty ingredients your customers can't find elsewhere. 3PLUS brings you selected European brands trusted by professionals — delivered on schedule.",
+      "valueProps": [
+        "Barista-grade ingredients",
+        "Plant-based range",
+        "Creative syrup collection",
+        "Consistent quality"
+      ],
+      "productsHeading": "Products for coffee shops",
+      "ctaHeading": "Ready to supply your coffee shop?"
+    },
+    "hotelsRestaurants": {
+      "heroTitle": "Hotel & restaurant solutions",
+      "heroSubtitle": "Beverage and breakfast solutions for hospitality",
+      "problemHeading": "Why choose 3PLUS for your hotel or restaurant",
+      "problemText": "Hotels and restaurants need more than good food — they need a beverage program that runs smoothly across breakfast service, room service, and the bar. 3PLUS supplies plant-based alternatives, premium hot chocolate, chai, and flavoured syrups from one source, one invoice, one delivery.",
+      "valueProps": [
+        "Full breakfast beverage range",
+        "Plant-based menu options",
+        "Premium guest experience",
+        "Bulk supply available"
+      ],
+      "productsHeading": "Products for hotels & restaurants",
+      "ctaHeading": "Ready to supply your hotel or restaurant?"
+    },
+    "bakeries": {
+      "heroTitle": "Bakery & dessert shop solutions",
+      "heroSubtitle": "Specialty ingredients for creative professionals",
+      "problemHeading": "Why choose 3PLUS for your bakery",
+      "problemText": "Bakeries and dessert shops need ingredients that perform — real chocolate sauce for drizzling, matcha powder that holds its colour, frappé base that blends smoothly. 3PLUS sources professional-grade ingredients from European producers, so your recipes stay consistent batch after batch.",
+      "valueProps": [
+        "Professional chocolate sauces",
+        "Japanese-grade matcha",
+        "Frappé and smoothie bases",
+        "Speciality syrups"
+      ],
+      "productsHeading": "Products for bakeries",
+      "ctaHeading": "Ready to supply your bakery?"
+    },
+    "professionalCleaning": {
+      "heroTitle": "Professional cleaning solutions",
+      "heroSubtitle": "Hygiene products for HoReCa — coming soon",
+      "problemHeading": "What's coming",
+      "problemText": "We are building a professional cleaning and hygiene range for restaurants, hotels, offices and business facilities. Register your interest and we will contact you as soon as our range launches.",
+      "ctaHeading": "Want to be the first to know?"
+    }
+  },
+  "solutionPage": {
+    "breadcrumbHome": "Home",
+    "breadcrumbSolutions": "Solutions",
+    "whyPoints": {
+      "supply": "Stable supply, no stockouts",
+      "invoice": "One invoice, multiple brands",
+      "delivery": "Scheduled delivery across Azerbaijan",
+      "support": "Dedicated account manager"
+    },
+    "howItWorks": "How to get started",
+    "steps": {
+      "quote": {
+        "title": "Request a quote",
+        "description": "Tell us what your business needs — we'll get back to you within 24 hours."
+      },
+      "offer": {
+        "title": "Get a tailored offer",
+        "description": "We'll prepare pricing and product recommendations tailored to your business."
+      },
+      "delivery": {
+        "title": "Start receiving deliveries",
+        "description": "Once confirmed, we schedule reliable, on-time delivery across Azerbaijan."
+      }
+    },
+    "comingSoon": {
+      "heading": "Coming Soon",
+      "text": "We are preparing a professional cleaning & hygiene range for HoReCa and business clients. Leave your details and we'll notify you when it launches.",
+      "companyLabel": "Company name",
+      "emailLabel": "Email",
+      "submit": "Notify Me",
+      "submitting": "Submitting...",
+      "successTitle": "Thank you.",
+      "successMessage": "We'll notify you as soon as this range launches.",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  },
+  "pillars": {
+    "heading": "What We Do",
+    "distribution": {
+      "title": "Distribution",
+      "description": "The Bridge, Sweetbird, Zuma — future coffee & brands. Reliable stock and scheduled delivery across Azerbaijan."
+    },
+    "corporateSupply": {
+      "title": "Corporate Supply",
+      "description": "Offices & corporate clients. Recurring business supply, professional requirements."
+    },
+    "sourcing": {
+      "title": "International Sourcing",
+      "description": "Selected products sourced on request. Premium & luxury sourcing where relevant."
+    }
+  },
+  "trustBar": {
+    "premium": {
+      "title": "Premium Brands",
+      "description": "Carefully selected international brands"
+    },
+    "complete": {
+      "title": "Complete Solution",
+      "description": "Everything your business needs"
+    },
+    "b2b": {
+      "title": "B2B Focused",
+      "description": "Dedicated to HoReCa and business"
+    },
+    "reliable": {
+      "title": "Reliable Supply",
+      "description": "Stable stock and on-time delivery"
+    },
+    "support": {
+      "title": "Dedicated Support",
+      "description": "We are here to support your business"
+    }
+  },
+  "featured": {
+    "eyebrow": "Featured",
+    "heading": "Products you can order today",
+    "requestQuote": "Request a Quote",
+    "showMore": "Show More"
+  },
+  "why": {
+    "heading": "Why businesses choose 3PLUS",
+    "brandsCount": {
+      "value": "3+",
+      "title": "International Brands",
+      "description": "A curated portfolio, growing with every new partnership."
+    },
+    "response": {
+      "value": "24h",
+      "title": "Order Response",
+      "description": "Fast, reliable replies to every business enquiry."
+    },
+    "focus": {
+      "value": "100%",
+      "title": "B2B Focused",
+      "description": "Built for HoReCa, offices, and corporate clients — not retail."
+    }
+  },
+  "cta": {
+    "heading": "Ready to partner with us?",
+    "description": "Get in touch for samples, pricing, or distribution enquiries.",
+    "buttonPrimary": "Request a Quote",
+    "buttonWhatsapp": "WhatsApp Us"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's talk business",
+    "subheading": "Tell us what you need — samples, pricing, or a distribution partnership. We reply within 24 hours.",
+    "directTitle": "Or reach us directly",
+    "form": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "enquiryType": "Enquiry type",
+      "enquiryTypes": {
+        "quote": "Request a Quote",
+        "sample": "Sample Request",
+        "partnership": "Partnership",
+        "general": "General Enquiry"
+      },
+      "brandInterest": "Brand of interest",
+      "brandInterestPlaceholder": "Select a brand (optional)",
+      "brandOther": "Other / Not sure",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your business and what you need...",
+      "submit": "Send Enquiry",
+      "submitting": "Sending...",
+      "successTitle": "Thank you.",
+      "successMessage": "Your enquiry has been sent. We'll get back to you within 24 hours.",
+      "errorMessage": "Something went wrong. Please try again or reach us on WhatsApp."
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "About 3PLUS",
+    "text": "In 2022, we started a project aimed at continuing our activities under the name of 3PLUS, providing services to companies engaged in e-commerce and trade in general, and optimizing their costs.",
+    "ctaText": "Have a question or want to work with us?",
+    "ctaButton": "Get in Touch",
+    "mapHeading": "Find us in Baku"
+  },
+  "footer": {
+    "tagline": "Professional distribution & sourcing. Baku, Azerbaijan.",
+    "company": "Company",
+    "products": "Products",
+    "contact": "Contact",
+    "email": "office@3plus.az",
+    "emailSecondary": "va@3plus.az",
+    "phone": "+994 10-12-12345",
+    "address": "Baku, Azerbaijan",
+    "whatsapp": "WhatsApp",
+    "rights": "All rights reserved."
+  }
+}

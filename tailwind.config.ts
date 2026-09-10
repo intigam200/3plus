@@ -11,6 +11,22 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // 3PLUS brand tokens — see 3PLUS_Website_Spec.md section 2
+        warmwhite: "#F5F4EF",
+        graphite: "#1A1A1A",
+        "brand-green": {
+          DEFAULT: "#2F5D4F",
+          soft: "#C9D9CD",
+        },
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "Helvetica", "Arial", "sans-serif"],
+      },
+      maxWidth: {
+        content: "1440px",
+      },
+      letterSpacing: {
+        tightest: "-0.03em",
       },
     },
   },

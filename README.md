@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3PLUS website
 
-## Getting Started
+B2B/HoReCa distributor site for 3PLUS (Baku, Azerbaijan). Next.js 14 (App Router) +
+Tailwind CSS + Sanity CMS, bilingual (AZ/EN). Spec: [`3PLUS_Website_Spec.md`](./3PLUS_Website_Spec.md).
 
-First, run the development server:
+## Stack
+
+- **Next.js 14** App Router, TypeScript, `src/` layout
+- **Tailwind CSS** — brand tokens (`warmwhite`, `graphite`, `brand-green`, `brand-green-soft`) in [`tailwind.config.ts`](./tailwind.config.ts)
+- **next-intl** — locale-prefixed routing at `/az` and `/en` (`az` is the default)
+- **Sanity CMS** — schemas for `Brand`, `Product`, `SolutionCategory`, `Page` in [`src/sanity/schemaTypes`](./src/sanity/schemaTypes), embedded Studio at `/studio`
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 — it redirects to `/az`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Connecting Sanity
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site runs with local seed content (see [`src/lib/seed-data.ts`](./src/lib/seed-data.ts))
+until Sanity is configured, so `npm run dev` works out of the box. To connect a real project:
 
-## Learn More
+1. `npx sanity login`
+2. `npx sanity init` (in this directory) — this creates a project and dataset, and can
+   write the project ID into `.env.local` for you
+2. Copy `.env.local.example` to `.env.local` and fill in `NEXT_PUBLIC_SANITY_PROJECT_ID`
+   (and `NEXT_PUBLIC_SANITY_DATASET` if you used something other than `production`)
+3. Run the dev server and open http://localhost:3000/studio to add Brands and Products
 
-To learn more about Next.js, take a look at the following resources:
+Once at least one `brand` document exists in Sanity with `featuredOnHome` checked, Home
+switches from the seed data to live Sanity content automatically.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### WhatsApp button
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Set `NEXT_PUBLIC_WHATSAPP_NUMBER` in `.env.local` (international format, digits only,
+e.g. `994501234567`) to show the floating WhatsApp button. It's hidden until set.
 
-## Deploy on Vercel
+## Project structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/app/[locale]/       localized routes (layout wires up header/footer/i18n)
+src/app/studio/         embedded Sanity Studio (not localized)
+src/components/layout/  header, footer, locale switcher, WhatsApp button
+src/components/home/    Home page sections (spec section 4.1)
+src/sanity/             Sanity client, image URL builder, schemas, GROQ queries
+src/i18n/                next-intl routing/navigation config
+messages/az.json        Azerbaijani UI copy
+messages/en.json        English UI copy
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## What's built so far
+
+- Project setup, Tailwind theme, AZ/EN routing
+- Sanity schemas for `Brand` and `Product` (plus `SolutionCategory` and `Page` from the
+  spec's data model, for the pages below)
+- Home page (spec §4.1): hero, Our Brands, pillars (Distribution / Corporate Supply /
+  Sourcing), Who We Serve, Featured Products, Why 3PLUS, CTA, footer with WhatsApp
+
+## Not yet built
+
+Per the sitemap in spec §3: About, Brands (index) + brand pages (§4.2), Solutions (§4.4),
+Product page template (§4.3), For Brands (§4.5), Corporate & Office Solutions (§4.6),
+Contact/forms, sitemap.xml, analytics. The `Page` schema exists for the flexible-content
+pages but no routes consume it yet.

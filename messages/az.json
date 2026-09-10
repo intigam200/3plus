@@ -1,0 +1,437 @@
+{
+  "common": {
+    "scrollToTop": "Yuxarı qalx"
+  },
+  "metadata": {
+    "title": "3PLUS — Distributorluq · Korporativ Təchizat · Beynəlxalq Təchizat Axtarışı",
+    "description": "3PLUS Azərbaycanda HoReCa, korporativ və premium təchizat axtarışı ehtiyacları üçün B2B distributorudur."
+  },
+  "nav": {
+    "home": "Ana Səhifə",
+    "brands": "Brendlər",
+    "solutions": "Həllər",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "businessEnquiry": "Biznes Sorğusu"
+  },
+  "hero": {
+    "eyebrow": "Distributorluq · Korporativ Təchizat · Beynəlxalq Təchizat Axtarışı",
+    "title": "Seçilmiş Brendlər. Etibarlı Təchizat. Ağıllı Təchizat Axtarışı.",
+    "subtitle": "Azərbaycanda HoReCa, ofislər və biznes müştəriləri üçün beynəlxalq məhsullar və təchizat həlləri.",
+    "ctaPrimary": "Brendləri Kəşf Et",
+    "ctaSecondary": "Partnyor Ol",
+    "imageAlt": "3PLUS məhsul çeşidi — bitki əsaslı süd, şokolad və qəhvə siropları"
+  },
+  "brands": {
+    "eyebrow": "Brendlərimiz",
+    "heading": "Peşəkar brendlər. Etibarlı tək təchizatçı.",
+    "sweetbird": {
+      "name": "Sweetbird",
+      "tagline": "Yaradıcı içki həlləri — Siroplar · Frappe"
+    },
+    "zuma": {
+      "name": "Zuma",
+      "tagline": "Premium kafe içkiləri — İsti Şokolad · Matça · Chai · Souslar"
+    },
+    "thebridge": {
+      "name": "The Bridge",
+      "tagline": "Üzvi bitki əsaslı içkilər — Yulaf · Badam · Kokos Barista"
+    }
+  },
+  "brandPages": {
+    "breadcrumbHome": "Ana Səhifə",
+    "breadcrumbBrands": "Brendlər",
+    "exploreProducts": "Məhsullara Bax",
+    "contactSales": "Satışla Əlaqə",
+    "productsHeading": "Məhsullar",
+    "moreFromBrand": "{brand} markasından daha çox",
+    "backToBrand": "{brand} səhifəsinə qayıt",
+    "productCategories": {
+      "frappe": "Frappe",
+      "classicSyrups": "Klassik Siroplar",
+      "creativeSyrups": "Yaradıcı Siroplar",
+      "sugarFree": "Şəkərsiz",
+      "hotChocolate": "İsti Şokolad",
+      "matcha": "Matça",
+      "chai": "Chai",
+      "sauces": "Souslar",
+      "barista": "Barista Çeşidi"
+    },
+    "sweetbird": {
+      "heroTitle": "Sweetbird",
+      "heroDescription": "Bristol, Böyük Britaniyada hazırlanan yaradıcı siroplar və frappe-lər — baristalar tərəfindən parlaq dad və sabit keyfiyyətə görə seçilir.",
+      "features": {
+        "flavours": { "title": "90+ dad", "description": "Klassikdən yaradıcıya" },
+        "vegan": { "title": "Vegan təsdiqli", "description": "90%-dən çoxu vegan sertifikatlı" },
+        "accredited": { "title": "BRC akkreditasiyalı", "description": "Qlobal qida təhlükəsizliyi standartı" },
+        "origin": { "title": "Bristol, Böyük Britaniyada istehsal", "description": "Öz istehsal sahəmizdə hazırlanır" }
+      },
+      "aboutHeading": "Sweetbird Haqqında",
+      "aboutText": "2006-cı ildə Bristol, Böyük Britaniyada yarandı — Sweetbird qeyri-adi siroplar və smoothie-lər yaradaraq adətləri dəyişdirməyi qarşısına məqsəd qoydu. 18 ildən çox vaxt keçdikdən sonra, mükafatlı çeşid çeviklik və sadəliklə birlikdə mükəmməl dad təqdim edir. Qida təhlükəsizliyi üçün BRC Qlobal Standartı akkreditasiyalıdır.",
+      "ctaHeading": "Biznesiniz üçün Sweetbird-lə maraqlanırsınız?"
+    },
+    "zuma": {
+      "heroTitle": "Zuma",
+      "heroDescription": "Premium kafe içki həlləri — zəngin isti şokolad, əsl matça və peşəkar baristalar üçün ətirli chai.",
+      "features": {
+        "indulgent": { "title": "Zəngin və doyumlu", "description": "Premium kafe səviyyəli reseptlər" },
+        "natural": { "title": "Təbii inqrediyentlər", "description": "Süni rəngləyicilər yoxdur" },
+        "barista": { "title": "Barista tərəfindən hazırlanmış", "description": "Peşəkarlar üçün nəzərdə tutulub" },
+        "trusted": { "title": "Dünya üzrə etibar edilir", "description": "Qlobal kafelərdə təqdim olunur" }
+      },
+      "aboutHeading": "Zuma Haqqında",
+      "aboutText": "Zuma premium kafe içki həlləri yaradır — zəngin, doyumlu isti şokoladdan əsl Yapon matçasına və ətirli chai-yə qədər. Hər fincanda sabit keyfiyyət və parlaq dad istəyən baristalar üçün hazırlanıb.",
+      "ctaHeading": "Biznesiniz üçün Zuma ilə maraqlanırsınız?"
+    },
+    "thebridge": {
+      "heroTitle": "The Bridge",
+      "heroDescription": "1994-cü ildən İtalyan üzvi bitki əsaslı içkilər — süd kimi köpüklənən, buxarlanan və tökülən Barista çeşidi.",
+      "features": {
+        "organic": { "title": "100% üzvi", "description": "Sertifikatlı üzvi inqrediyentlər" },
+        "plantBased": { "title": "Bitki əsaslı", "description": "Südsüz, vegan, təbii" },
+        "origin": { "title": "İtaliyada istehsal", "description": "İtalyan üzvi ənənəsi" },
+        "barista": { "title": "Barista çeşidi", "description": "Mükəmməl köpüklənir və buxarlanır" }
+      },
+      "aboutHeading": "The Bridge Haqqında",
+      "aboutText": "İtalyan üzvi pioner — The Bridge 1994-cü ildən bitki əsaslı içkilər istehsal edir. Onların Barista çeşidi peşəkar qəhvə xidməti üçün xüsusi hazırlanıb: təmiz üzvi inqrediyentlərlə süd kimi köpüklənir, buxarlanır və tökülür.",
+      "ctaHeading": "Biznesiniz üçün The Bridge ilə maraqlanırsınız?"
+    }
+  },
+  "comingSoonBanners": {
+    "badge": "Tezliklə",
+    "coffee": {
+      "title": "Qəhvə",
+      "description": "Biznesiniz üçün peşəkar İtalyan qəhvə həlləri."
+    },
+    "cleaning": {
+      "title": "Peşəkar Təmizlik",
+      "description": "HoReCa və bizneslər üçün peşəkar gigiyena həlləri."
+    }
+  },
+  "solutions": {
+    "eyebrow": "Həllər",
+    "heading": "Biznesiniz üçün həllər",
+    "learnMore": "Ətraflı",
+    "comingSoon": "Tezliklə",
+    "coffeeShops": {
+      "title": "Qəhvə Evləri",
+      "features": ["Bitki əsaslı süd", "Matça", "Chai", "Frappe", "Şokolad"]
+    },
+    "hotelsRestaurants": {
+      "title": "Otellər və Restoranlar",
+      "features": ["İçki həlləri", "Səhər yeməyi həlləri", "Bitki əsaslı alternativlər"]
+    },
+    "bakeries": {
+      "title": "Qənnadı və Desert Sexləri",
+      "features": ["Frappe", "Şokolad", "Matça", "Xüsusi inqrediyentlər"]
+    },
+    "cleaning": {
+      "title": "Peşəkar Təmizlik",
+      "description": "HoReCa və bizneslər üçün gigiyena həlləri."
+    }
+  },
+  "productCatalog": {
+    "sweetbirdVanillaSyrup": {
+      "brand": "Sweetbird",
+      "name": "Vanilla Syrup",
+      "packSize": "1 litr",
+      "description": "Qəhvə və desertlər üçün klassik vanil siropu."
+    },
+    "sweetbirdCaramelSyrup": {
+      "brand": "Sweetbird",
+      "name": "Caramel Syrup",
+      "packSize": "1 litr",
+      "description": "Qəhvə və desertlər üçün yumşaq karamel siropu."
+    },
+    "sweetbirdCaffeFrappe": {
+      "brand": "Sweetbird",
+      "name": "Caffè Frappé",
+      "packSize": "4 × 1 kg",
+      "description": "Soyuq qəhvə içkiləri üçün krem-vari frappe bazası."
+    },
+    "sweetbirdGrenadineSyrup": {
+      "brand": "Sweetbird",
+      "name": "Grenadine Syrup",
+      "packSize": "1 litr",
+      "description": "İçki və desertlər üçün parlaq, meyvəli qrenadin siropu."
+    },
+    "zumaDarkHotChocolate": {
+      "brand": "Zuma",
+      "name": "Dark Hot Chocolate",
+      "packSize": "8 × 1 kg",
+      "description": "Peşəkar istifadə üçün zəngin, intensiv isti şokolad."
+    },
+    "zumaOriginalMatcha": {
+      "brand": "Zuma",
+      "name": "Original Matcha",
+      "packSize": "10 × 100 g",
+      "description": "Latte və içkilər üçün yumşaq, canlı matça."
+    },
+    "zumaSpicedChai": {
+      "brand": "Zuma",
+      "name": "Spiced Chai",
+      "packSize": "1 kg",
+      "description": "Latte üçün isti ədviyyatlı chai qarışığı."
+    },
+    "zumaVanillaChai": {
+      "brand": "Zuma",
+      "name": "Vanilla Chai",
+      "packSize": "1 kg",
+      "description": "Latte üçün yumşaq vanil chai qarışığı."
+    },
+    "zumaDarkChocolateSauce": {
+      "brand": "Zuma",
+      "name": "Dark Chocolate Sauce",
+      "packSize": "1 litr",
+      "description": "Süzmə və desertlər üçün zəngin şokolad sousu."
+    },
+    "zumaWhiteChocolateSauce": {
+      "brand": "Zuma",
+      "name": "White Chocolate Sauce",
+      "packSize": "1 litr",
+      "description": "Süzmə və desertlər üçün krem-vari ağ şokolad sousu."
+    },
+    "bridgeOatBarista": {
+      "brand": "The Bridge",
+      "name": "Oat Barista",
+      "packSize": "1 litr",
+      "description": "Barista istifadəsi üçün mükəmməl köpüklənən üzvi yulaf içkisi."
+    },
+    "bridgeAlmondBarista": {
+      "brand": "The Bridge",
+      "name": "Almond Barista",
+      "packSize": "1 litr",
+      "description": "Yumşaq, barista istifadəsi üçün hazır üzvi badam içkisi."
+    },
+    "bridgeCoconutBarista": {
+      "brand": "The Bridge",
+      "name": "Coconut Barista",
+      "packSize": "1 litr",
+      "description": "Gözəl köpüklənən üzvi kokos içkisi."
+    }
+  },
+  "productDescriptions": {
+    "caffeFrappe": "Soyuq qəhvə içkiləri üçün krem-vari frappe bazası.",
+    "vanillaSyrup": "Qəhvə və desertlər üçün klassik vanil siropu.",
+    "caramelSyrup": "Qəhvə və desertlər üçün yumşaq karamel siropu.",
+    "blueCuracaoSyrup": "Yaradıcı kokteyllər üçün parlaq mavi sirop.",
+    "grenadineSyrup": "İçki və desertlər üçün parlaq, meyvəli qrenadin siropu.",
+    "saltedCaramelSyrup": "Duzlu notlu zəngin karamel sirop.",
+    "mangoSyrup": "Meyvəli soyuq içkilər üçün tropik manqo siropu.",
+    "sfCaramelSyrup": "Şəkərsiz karamel sirop — dadından güzəştsiz.",
+    "sfVanillaSyrup": "Şəkərsiz vanil sirop — dadından güzəştsiz.",
+    "darkHotChocolate": "Peşəkar istifadə üçün zəngin, intensiv isti şokolad.",
+    "whiteHotChocolate": "Peşəkar istifadə üçün krem-vari ağ isti şokolad.",
+    "originalMatcha": "Latte və içkilər üçün yumşaq, canlı matça.",
+    "spicedChai": "Latte üçün isti ədviyyatlı chai qarışığı.",
+    "vanillaChai": "Latte üçün yumşaq vanil chai qarışığı.",
+    "darkChocolateSauce": "Süzmə və desertlər üçün zəngin şokolad sousu.",
+    "whiteChocolateSauce": "Süzmə və desertlər üçün krem-vari ağ şokolad sousu.",
+    "oatDrinkBarista": "Barista istifadəsi üçün mükəmməl köpüklənən üzvi yulaf içkisi.",
+    "almondDrinkBarista": "Yumşaq, barista istifadəsi üçün hazır üzvi badam içkisi.",
+    "coconutDrinkBarista": "Gözəl köpüklənən üzvi kokos içkisi."
+  },
+  "solutionPages": {
+    "coffeeShops": {
+      "heroTitle": "Qəhvə evi həlləri",
+      "heroSubtitle": "Kafeniz üçün premium içkilər və inqrediyentlər",
+      "problemHeading": "Kafeniz üçün nə üçün 3PLUS seçilməlidir",
+      "problemText": "Kafe idarə etmək keyfiyyəti sabitliklə balanslaşdırmaq deməkdir. Baristalarınıza mükəmməl köpüklənən etibarlı bitki əsaslı süd, hər fincanda eyni dadı verən siroplar və müştərilərinizin başqa yerdə tapa bilmədiyi xüsusi inqrediyentlər lazımdır. 3PLUS peşəkarların etibar etdiyi seçilmiş Avropa brendlərini planlı şəkildə sizə çatdırır.",
+      "valueProps": [
+        "Barista səviyyəli inqrediyentlər",
+        "Bitki əsaslı çeşid",
+        "Yaradıcı sirop kolleksiyası",
+        "Sabit keyfiyyət"
+      ],
+      "productsHeading": "Qəhvə evləri üçün məhsullar",
+      "ctaHeading": "Qəhvə evinizi təchiz etməyə hazırsınız?"
+    },
+    "hotelsRestaurants": {
+      "heroTitle": "Otel və restoran həlləri",
+      "heroSubtitle": "Qonaqpərvərlik üçün içki və səhər yeməyi həlləri",
+      "problemHeading": "Otel və ya restoranınız üçün nə üçün 3PLUS seçilməlidir",
+      "problemText": "Otellər və restoranlara yaxşı yeməkdən daha çoxu lazımdır — səhər yeməyi xidmətindən otaq xidmətinə və bara qədər rahat işləyən içki proqramı lazımdır. 3PLUS bitki əsaslı alternativləri, premium isti şokoladı, chai-ni və dadlandırılmış siropları bir mənbədən, bir hesab-fakturadan, bir çatdırılmadan təmin edir.",
+      "valueProps": [
+        "Tam səhər yeməyi içki çeşidi",
+        "Bitki əsaslı menyu seçimləri",
+        "Premium qonaq təcrübəsi",
+        "Toplu təchizat mövcuddur"
+      ],
+      "productsHeading": "Otellər və restoranlar üçün məhsullar",
+      "ctaHeading": "Otel və ya restoranınızı təchiz etməyə hazırsınız?"
+    },
+    "bakeries": {
+      "heroTitle": "Qənnadı və desert sexi həlləri",
+      "heroSubtitle": "Yaradıcı peşəkarlar üçün xüsusi inqrediyentlər",
+      "problemHeading": "Qənnadı sexiniz üçün nə üçün 3PLUS seçilməlidir",
+      "problemText": "Qənnadı və desert sexlərinə işləyən inqrediyentlər lazımdır — süzmə üçün əsl şokolad sousu, rəngini saxlayan matça tozu, hamar qarışan frappe bazası. 3PLUS Avropa istehsalçılarından peşəkar səviyyəli inqrediyentlər tədarük edir, beləliklə reseptləriniz hər partiyada sabit qalır.",
+      "valueProps": [
+        "Peşəkar şokolad sousları",
+        "Yapon səviyyəli matça",
+        "Frappe və smoothie bazaları",
+        "Xüsusi siroplar"
+      ],
+      "productsHeading": "Qənnadı sexləri üçün məhsullar",
+      "ctaHeading": "Qənnadı sexinizi təchiz etməyə hazırsınız?"
+    },
+    "professionalCleaning": {
+      "heroTitle": "Peşəkar təmizlik həlləri",
+      "heroSubtitle": "HoReCa üçün gigiyena məhsulları — tezliklə",
+      "problemHeading": "Nə gəlir",
+      "problemText": "Restoranlar, otellər, ofislər və biznes obyektlər üçün peşəkar təmizlik və gigiyena çeşidi hazırlayırıq. Marağınızı qeydiyyatdan keçirin, çeşid təqdim olunan kimi sizinlə əlaqə saxlayacağıq.",
+      "ctaHeading": "İlk bilənlərdən olmaq istəyirsiniz?"
+    }
+  },
+  "solutionPage": {
+    "breadcrumbHome": "Ana Səhifə",
+    "breadcrumbSolutions": "Həllər",
+    "whyPoints": {
+      "supply": "Sabit təchizat, kəsilmə yoxdur",
+      "invoice": "Bir hesab-faktura, çoxlu brend",
+      "delivery": "Azərbaycan üzrə planlı çatdırılma",
+      "support": "Xüsusi hesab meneceri"
+    },
+    "howItWorks": "Necə başlamaq olar",
+    "steps": {
+      "quote": {
+        "title": "Qiymət təklifi tələb edin",
+        "description": "Biznesinizin nəyə ehtiyacı olduğunu bizə bildirin — 24 saat ərzində sizinlə əlaqə saxlayacağıq."
+      },
+      "offer": {
+        "title": "Uyğunlaşdırılmış təklif alın",
+        "description": "Biznesinizə uyğun qiymət və məhsul tövsiyələri hazırlayacağıq."
+      },
+      "delivery": {
+        "title": "Çatdırılmaları almağa başlayın",
+        "description": "Təsdiqləndikdən sonra Azərbaycan üzrə etibarlı, vaxtında çatdırılma planlaşdırırıq."
+      }
+    },
+    "comingSoon": {
+      "heading": "Tezliklə",
+      "text": "HoReCa və biznes müştəriləri üçün peşəkar təmizlik və gigiyena çeşidi hazırlayırıq. Məlumatlarınızı buraxın, çeşid təqdim olunanda sizə xəbər verəcəyik.",
+      "companyLabel": "Şirkət adı",
+      "emailLabel": "E-poçt",
+      "submit": "Mənə Bildir",
+      "submitting": "Göndərilir...",
+      "successTitle": "Təşəkkür edirik.",
+      "successMessage": "Bu çeşid təqdim olunan kimi sizə xəbər verəcəyik.",
+      "errorMessage": "Xəta baş verdi. Yenidən cəhd edin."
+    }
+  },
+  "pillars": {
+    "heading": "Nə Edirik",
+    "distribution": {
+      "title": "Distributorluq",
+      "description": "The Bridge, Sweetbird, Zuma — gələcək qəhvə və brendlər. Azərbaycan üzrə etibarlı ehtiyat və planlı çatdırılma."
+    },
+    "corporateSupply": {
+      "title": "Korporativ Təchizat",
+      "description": "Ofislər və korporativ müştərilər. Davamlı biznes təchizatı, peşəkar tələblər."
+    },
+    "sourcing": {
+      "title": "Beynəlxalq Təchizat Axtarışı",
+      "description": "Sifarişlə seçilmiş məhsullar tədarük edilir. Uyğun hallarda premium və lüks təchizat axtarışı."
+    }
+  },
+  "trustBar": {
+    "premium": {
+      "title": "Premium Brendlər",
+      "description": "Diqqətlə seçilmiş beynəlxalq brendlər"
+    },
+    "complete": {
+      "title": "Tam Həll",
+      "description": "Biznesiniz üçün lazım olan hər şey"
+    },
+    "b2b": {
+      "title": "B2B Yönümlü",
+      "description": "HoReCa və biznes müştərilərə həsr olunmuş"
+    },
+    "reliable": {
+      "title": "Etibarlı Təchizat",
+      "description": "Sabit ehtiyat və vaxtında çatdırılma"
+    },
+    "support": {
+      "title": "Xüsusi Dəstək",
+      "description": "Biznesinizi dəstəkləmək üçün buradayıq"
+    }
+  },
+  "featured": {
+    "eyebrow": "Seçilmiş",
+    "heading": "Bu gün sifariş edə biləcəyiniz məhsullar",
+    "requestQuote": "Qiymət Təklifi Al",
+    "showMore": "Daha Çox Göstər"
+  },
+  "why": {
+    "heading": "Bizneslər niyə 3PLUS-u seçir",
+    "brandsCount": {
+      "value": "3+",
+      "title": "Beynəlxalq Brendlər",
+      "description": "Hər yeni əməkdaşlıqla böyüyən seçilmiş portfel."
+    },
+    "response": {
+      "value": "24h",
+      "title": "Sifariş Cavabı",
+      "description": "Hər biznes sorğusuna sürətli, etibarlı cavab."
+    },
+    "focus": {
+      "value": "100%",
+      "title": "B2B Yönümlü",
+      "description": "HoReCa, ofislər və korporativ müştərilər üçün qurulub — pərakəndə üçün deyil."
+    }
+  },
+  "cta": {
+    "heading": "Bizimlə əməkdaşlığa hazırsınız?",
+    "description": "Nümunələr, qiymətlər və ya distribusiya sorğuları üçün bizimlə əlaqə saxlayın.",
+    "buttonPrimary": "Qiymət Təklifi Al",
+    "buttonWhatsapp": "WhatsApp-da Yazın"
+  },
+  "contact": {
+    "eyebrow": "Əlaqə",
+    "heading": "Gəlin biznesi müzakirə edək",
+    "subheading": "Nümunə, qiymət və ya distribusiya tərəfdaşlığı üçün bizə yazın. 24 saat ərzində cavab veririk.",
+    "directTitle": "Və ya birbaşa bizimlə əlaqə saxlayın",
+    "form": {
+      "name": "Ad Soyad",
+      "company": "Şirkət",
+      "email": "E-poçt",
+      "phone": "Telefon",
+      "enquiryType": "Sorğu növü",
+      "enquiryTypes": {
+        "quote": "Qiymət Təklifi",
+        "sample": "Nümunə Sorğusu",
+        "partnership": "Tərəfdaşlıq",
+        "general": "Ümumi Sorğu"
+      },
+      "brandInterest": "Maraqlandığınız brend",
+      "brandInterestPlaceholder": "Brend seçin (istəyə bağlı)",
+      "brandOther": "Digər / Əmin deyiləm",
+      "message": "Mesaj",
+      "messagePlaceholder": "Biznesiniz və ehtiyacınız haqqında bizə məlumat verin...",
+      "submit": "Sorğunu Göndər",
+      "submitting": "Göndərilir...",
+      "successTitle": "Təşəkkür edirik.",
+      "successMessage": "Sorğunuz göndərildi. 24 saat ərzində sizinlə əlaqə saxlayacağıq.",
+      "errorMessage": "Xəta baş verdi. Yenidən cəhd edin və ya bizimlə WhatsApp-da əlaqə saxlayın."
+    }
+  },
+  "about": {
+    "eyebrow": "Haqqımızda",
+    "heading": "3PLUS Haqqında",
+    "text": "2022-ci ildə biz fəaliyyətimizi 3PLUS adı altında davam etdirmək, e-ticarətlə və ümumilikdə ticarətlə məşğul olan şirkətlərə xidmət göstərmək və onların xərclərini optimallaşdırmaq məqsədilə bir layihəyə başladıq.",
+    "ctaText": "Sualınız var və ya bizimlə işləmək istəyirsiniz?",
+    "ctaButton": "Bizimlə Əlaqə Saxlayın",
+    "mapHeading": "Bizi Bakıda Tapın"
+  },
+  "footer": {
+    "tagline": "Peşəkar distribusiya və təchizat axtarışı. Bakı, Azərbaycan.",
+    "company": "Şirkət",
+    "products": "Məhsullar",
+    "contact": "Əlaqə",
+    "email": "office@3plus.az",
+    "emailSecondary": "va@3plus.az",
+    "phone": "+994 10-12-12345",
+    "address": "Bakı, Azərbaycan",
+    "whatsapp": "WhatsApp",
+    "rights": "Bütün hüquqlar qorunur."
+  }
+}
