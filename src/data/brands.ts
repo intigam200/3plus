@@ -58,8 +58,8 @@ export const BRANDS: BrandDef[] = [
     detailKey: "sweetbird",
     colors: { accent: "#D4442A", accentLight: "#FEF0ED", accentDark: "#9E2E18" },
     logo: "/images/logos/Sweetbird-Logo_black.png",
-    heroPhoto: "/images/photos/Sweetbird-UK-.png",
-    storyPhoto: "/images/photos/Sweetbird-UK-.png",
+    heroPhoto: "/images/photos/Sweetbird-UK-.webp",
+    storyPhoto: "/images/photos/Sweetbird-UK-.webp",
     features: [
       { key: "flavours", icon: Palette },
       { key: "vegan", icon: LeafyGreen },
@@ -138,8 +138,8 @@ export const BRANDS: BrandDef[] = [
     detailKey: "zuma",
     colors: { accent: "#1B6B5A", accentLight: "#EDF7F4", accentDark: "#0F4D3F" },
     logo: "/images/logos/zuma.png",
-    heroPhoto: "/images/photos/zuma.png",
-    storyPhoto: "/images/photos/zuma.png",
+    heroPhoto: "/images/photos/zuma.webp",
+    storyPhoto: "/images/photos/zuma.webp",
     features: [
       { key: "indulgent", icon: Flame },
       { key: "natural", icon: Leaf },
@@ -167,7 +167,7 @@ export const BRANDS: BrandDef[] = [
         name: "Original Matcha",
         packSize: "10 × 100 g",
         categoryKey: "matcha",
-        photo: "/images/products/zuma/original-matcha.png",
+        photo: "/images/products/zuma/original-matcha.webp",
       },
       {
         id: "spicedChai",
@@ -203,8 +203,8 @@ export const BRANDS: BrandDef[] = [
     detailKey: "thebridge",
     colors: { accent: "#5BA030", accentLight: "#F2F8EC", accentDark: "#3D7020" },
     logo: "/images/logos/logo-thebridge-horizontal-opt.png",
-    heroPhoto: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.png",
-    storyPhoto: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.png",
+    heroPhoto: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.webp",
+    storyPhoto: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.webp",
     features: [
       { key: "organic", icon: Sprout },
       { key: "plantBased", icon: Heart },
@@ -218,7 +218,7 @@ export const BRANDS: BrandDef[] = [
         name: "Oat Drink Barista",
         packSize: "1 litre",
         categoryKey: "barista",
-        photo: "/images/products/the-bridge/oat-drink-barista.png",
+        photo: "/images/products/the-bridge/oat-drink-barista.webp",
       },
       {
         id: "almondDrinkBarista",

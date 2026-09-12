@@ -25,7 +25,7 @@ export const SOLUTIONS: SolutionDef[] = [
     homeKey: "coffeeShops",
     detailKey: "coffeeShops",
     icon: Coffee,
-    photo: "/images/photos/coffee.png",
+    photo: "/images/photos/coffee.webp",
     productIds: [
       "sweetbirdVanillaSyrup",
       "sweetbirdCaramelSyrup",
@@ -41,7 +41,7 @@ export const SOLUTIONS: SolutionDef[] = [
     homeKey: "hotelsRestaurants",
     detailKey: "hotelsRestaurants",
     icon: UtensilsCrossed,
-    photo: "/images/photos/hotel.png",
+    photo: "/images/photos/hotel.webp",
     productIds: [
       "bridgeOatBarista",
       "bridgeAlmondBarista",
@@ -58,7 +58,7 @@ export const SOLUTIONS: SolutionDef[] = [
     homeKey: "bakeries",
     detailKey: "bakeries",
     icon: Cookie,
-    photo: "/images/photos/bakery.png",
+    photo: "/images/photos/bakery.webp",
     productIds: [
       "zumaDarkChocolateSauce",
       "zumaWhiteChocolateSauce",

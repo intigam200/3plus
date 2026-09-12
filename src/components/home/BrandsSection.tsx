@@ -8,19 +8,19 @@ const BRANDS = [
     key: "sweetbird",
     slug: "sweetbird",
     logo: "/images/logos/Sweetbird-Logo_black.png",
-    photo: "/images/photos/Sweetbird-UK-.png",
+    photo: "/images/photos/Sweetbird-UK-.webp",
   },
   {
     key: "zuma",
     slug: "zuma",
     logo: "/images/logos/zuma.png",
-    photo: "/images/photos/zuma.png",
+    photo: "/images/photos/zuma.webp",
   },
   {
     key: "thebridge",
     slug: "the-bridge",
     logo: "/images/logos/logo-thebridge-horizontal-opt.png",
-    photo: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.png",
+    photo: "/images/photos/Biodrink-oat-natural_Livello2-e-livello-3.webp",
   },
 ] as const;
 
