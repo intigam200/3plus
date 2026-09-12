@@ -16,6 +16,10 @@ export async function BrandPage({ brand }: { brand: BrandDef }) {
     "--brand-dark": colors.accentDark,
   } as CSSProperties;
 
+  // Sweetbird's red-orange doesn't read well as a full-bleed CTA background —
+  // use the site's dark green there instead, for visual consistency with the rest of the site.
+  const ctaAccent = brand.slug === "sweetbird" ? "#2D4A3E" : colors.accent;
+
   return (
     <div style={brandVars}>
       {/* 1. Hero */}
@@ -140,7 +144,7 @@ export async function BrandPage({ brand }: { brand: BrandDef }) {
       </section>
 
       {/* 5. CTA */}
-      <section style={{ backgroundColor: colors.accent }}>
+      <section style={{ backgroundColor: ctaAccent }}>
         <div className="section-padding mx-auto max-w-content text-center">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white md:text-4xl">
             {t(`brandPages.${detailKey}.ctaHeading`)}
@@ -150,7 +154,7 @@ export async function BrandPage({ brand }: { brand: BrandDef }) {
             <Link
               href="/contact"
               className="rounded-full bg-white px-7 py-3.5 text-sm font-medium transition-transform duration-300 hover:scale-105"
-              style={{ color: colors.accent }}
+              style={{ color: ctaAccent }}
             >
               {t("featured.requestQuote")}
             </Link>

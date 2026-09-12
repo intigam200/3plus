@@ -39,8 +39,10 @@ export async function SolutionsSection() {
                       className="object-cover"
                     />
                   ) : (
-                    <div className="flex h-full w-full items-center justify-center">
-                      <Icon className="h-10 w-10 text-graphite/30" strokeWidth={1.5} />
+                    <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-brand-green-soft/50 to-warmwhite">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-sm">
+                        <Icon className="h-9 w-9 text-brand-green" strokeWidth={1.5} />
+                      </div>
                     </div>
                   )}
                 </div>

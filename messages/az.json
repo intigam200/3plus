@@ -19,7 +19,7 @@
     "title": "Seçilmiş Brendlər. Etibarlı Təchizat. Ağıllı Təchizat Axtarışı.",
     "subtitle": "Azərbaycanda HoReCa, ofislər və biznes müştəriləri üçün beynəlxalq məhsullar və təchizat həlləri.",
     "ctaPrimary": "Brendləri Kəşf Et",
-    "ctaSecondary": "Partnyor Ol",
+    "ctaSecondary": "Tərəfdaş Ol",
     "imageAlt": "3PLUS məhsul çeşidi — bitki əsaslı süd, şokolad və qəhvə siropları"
   },
   "brands": {
@@ -115,14 +115,14 @@
     "comingSoon": "Tezliklə",
     "coffeeShops": {
       "title": "Qəhvə Evləri",
-      "features": ["Bitki əsaslı süd", "Matça", "Chai", "Frappe", "Şokolad"]
+      "features": ["Bitki əsaslı süd", "Matça", "Çay", "Frappe", "Şokolad"]
     },
     "hotelsRestaurants": {
       "title": "Otellər və Restoranlar",
       "features": ["İçki həlləri", "Səhər yeməyi həlləri", "Bitki əsaslı alternativlər"]
     },
     "bakeries": {
-      "title": "Qənnadı və Desert Sexləri",
+      "title": "Qənnadı və Şirniyyat Mağazaları",
       "features": ["Frappe", "Şokolad", "Matça", "Xüsusi inqrediyentlər"]
     },
     "cleaning": {
@@ -209,6 +209,27 @@
       "packSize": "1 litr",
       "description": "Gözəl köpüklənən üzvi kokos içkisi."
     }
+  },
+  "productNames": {
+    "caffeFrappe": "Kofe Frappe",
+    "vanillaSyrup": "Vanil Siropu",
+    "caramelSyrup": "Karamel Siropu",
+    "blueCuracaoSyrup": "Mavi Kurasao Siropu",
+    "grenadineSyrup": "Qrenadin Siropu",
+    "saltedCaramelSyrup": "Duzlu Karamel Siropu",
+    "mangoSyrup": "Manqo Siropu",
+    "sfCaramelSyrup": "Şəkərsiz Karamel Siropu",
+    "sfVanillaSyrup": "Şəkərsiz Vanil Siropu",
+    "darkHotChocolate": "Tünd İsti Şokolad",
+    "whiteHotChocolate": "Ağ İsti Şokolad",
+    "originalMatcha": "Orijinal Matça",
+    "spicedChai": "Ədviyyatlı Çay",
+    "vanillaChai": "Vanilli Çay",
+    "darkChocolateSauce": "Tünd Şokolad Sousu",
+    "whiteChocolateSauce": "Ağ Şokolad Sousu",
+    "oatDrinkBarista": "Yulaf İçkisi Barista",
+    "almondDrinkBarista": "Badam İçkisi Barista",
+    "coconutDrinkBarista": "Kokos İçkisi Barista"
   },
   "productDescriptions": {
     "caffeFrappe": "Soyuq qəhvə içkiləri üçün krem-vari frappe bazası.",
@@ -363,10 +384,10 @@
   },
   "why": {
     "heading": "Bizneslər niyə 3PLUS-u seçir",
-    "brandsCount": {
-      "value": "3+",
-      "title": "Beynəlxalq Brendlər",
-      "description": "Hər yeni əməkdaşlıqla böyüyən seçilmiş portfel."
+    "productsCount": {
+      "value": "19+",
+      "title": "Məhsul Çeşidi",
+      "description": "Hər yeni əməkdaşlıqla böyüyən seçilmiş kataloq."
     },
     "response": {
       "value": "24h",

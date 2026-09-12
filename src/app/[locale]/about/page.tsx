@@ -52,7 +52,7 @@ export default async function AboutPage({
           </h2>
           <div className="mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[#E8E8E3] md:aspect-[21/9]">
             <iframe
-              src="https://www.google.com/maps?q=Baku,Azerbaijan&output=embed"
+              src="https://www.google.com/maps?q=Baku,Azerbaijan&z=15&output=embed"
               title="3PLUS — Baku, Azerbaijan"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

@@ -16,6 +16,7 @@ export function ProductTabs({
 }) {
   const t = useTranslations("brandPages");
   const tFeatured = useTranslations("featured");
+  const tNames = useTranslations("productNames");
   const [active, setActive] = useState(categories[0] ?? "");
 
   const visible =
@@ -50,6 +51,7 @@ export function ProductTabs({
             brandSlug={brandSlug}
             categoryLabel={t(`productCategories.${product.categoryKey}`)}
             requestQuoteLabel={tFeatured("requestQuote")}
+            nameCaption={tNames(product.id)}
           />
         ))}
       </div>

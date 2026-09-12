@@ -115,7 +115,7 @@ export async function Footer() {
 
         <div className="mt-16 overflow-hidden rounded-2xl border border-white/10">
           <iframe
-            src="https://www.google.com/maps?q=Baku,Azerbaijan&output=embed"
+            src="https://www.google.com/maps?q=Baku,Azerbaijan&z=15&output=embed"
             title="3PLUS — Baku, Azerbaijan"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

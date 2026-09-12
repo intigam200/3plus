@@ -10,6 +10,7 @@ type ProductCardProps = {
   ctaHref?: string;
   photo?: string;
   href?: string;
+  nameCaption?: string;
 };
 
 export function ProductCard({
@@ -21,7 +22,11 @@ export function ProductCard({
   ctaHref = "/contact",
   photo,
   href,
+  nameCaption,
 }: ProductCardProps) {
+  const caption = nameCaption && nameCaption !== name && (
+    <p className="mt-0.5 text-sm text-graphite/50">{nameCaption}</p>
+  );
   const media = (
     <div className="relative aspect-square overflow-hidden rounded-xl bg-warmwhite">
       <span className="absolute left-3 top-3 z-10 text-xs font-medium uppercase tracking-wide text-graphite/50">
@@ -50,11 +55,12 @@ export function ProductCard({
   );
 
   return (
-    <div className="flex h-full flex-col rounded-2xl border border-[#E8E8E3] bg-white p-6">
+    <div className="flex h-full flex-col rounded-2xl border border-[#E8E8E3] bg-white p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
       {href ? (
         <Link href={href} className="flex flex-1 flex-col">
           {media}
           <h3 className="mt-5 text-base font-semibold text-graphite">{name}</h3>
+          {caption}
           <p className="mt-1.5 text-sm text-graphite/60">{description}</p>
           <p className="mt-3 text-xs text-graphite/40">{packSize}</p>
         </Link>
@@ -62,6 +68,7 @@ export function ProductCard({
         <>
           {media}
           <h3 className="mt-5 text-base font-semibold text-graphite">{name}</h3>
+          {caption}
           <p className="mt-1.5 text-sm text-graphite/60">{description}</p>
           <p className="mt-3 text-xs text-graphite/40">{packSize}</p>
         </>

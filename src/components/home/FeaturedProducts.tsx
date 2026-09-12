@@ -6,12 +6,14 @@ export async function FeaturedProducts() {
   const t = await getTranslations("featured");
   const tBrands = await getTranslations("brands");
   const tBrandPages = await getTranslations("brandPages");
+  const tNames = await getTranslations("productNames");
 
   const products = BRANDS.flatMap((brand) =>
     brand.products.map((product) => ({
       key: `${brand.slug}-${product.id}`,
       brand: tBrands(`${brand.homeKey}.name`),
       name: product.name,
+      nameCaption: tNames(product.id),
       packSize: product.packSize,
       description: tBrandPages(`productCategories.${product.categoryKey}`),
       photo: product.photo,

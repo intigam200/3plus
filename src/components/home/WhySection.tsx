@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-const STATS = ["brandsCount", "response", "focus"] as const;
+const STATS = ["productsCount", "response", "focus"] as const;
 
 export async function WhySection() {
   const t = await getTranslations("why");

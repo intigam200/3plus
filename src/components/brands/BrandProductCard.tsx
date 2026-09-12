@@ -7,6 +7,7 @@ type BrandProductCardProps = {
   brandSlug: string;
   categoryLabel: string;
   requestQuoteLabel: string;
+  nameCaption?: string;
 };
 
 export function BrandProductCard({
@@ -14,9 +15,10 @@ export function BrandProductCard({
   brandSlug,
   categoryLabel,
   requestQuoteLabel,
+  nameCaption,
 }: BrandProductCardProps) {
   return (
-    <div className="flex h-full flex-col rounded-2xl border border-[#E8E8E3] bg-white p-6">
+    <div className="flex h-full flex-col rounded-2xl border border-[#E8E8E3] bg-white p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-md">
       <Link href={`/brands/${brandSlug}/${product.id}`} className="flex flex-1 flex-col">
         <div className="relative aspect-square overflow-hidden rounded-xl bg-[var(--brand-light)]">
           {product.photo ? (
@@ -43,6 +45,9 @@ export function BrandProductCard({
           {categoryLabel}
         </p>
         <h3 className="mt-1 text-base font-semibold text-graphite">{product.name}</h3>
+        {nameCaption && nameCaption !== product.name && (
+          <p className="mt-0.5 text-sm text-graphite/50">{nameCaption}</p>
+        )}
         <p className="mt-2 text-sm text-graphite/50">{product.packSize}</p>
       </Link>
 

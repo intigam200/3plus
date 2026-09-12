@@ -7,6 +7,7 @@ type FeaturedProduct = {
   key: string;
   brand: string;
   name: string;
+  nameCaption?: string;
   packSize: string;
   description: string;
   photo?: string;
@@ -35,6 +36,7 @@ export function FeaturedProductsGrid({
             key={product.key}
             brand={product.brand}
             name={product.name}
+            nameCaption={product.nameCaption}
             packSize={product.packSize}
             description={product.description}
             photo={product.photo}

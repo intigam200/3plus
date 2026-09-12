@@ -61,7 +61,7 @@ export async function BrandsSection() {
                 />
               </div>
               <p className="mt-4 text-sm text-graphite/60">{t(`brands.${brand.key}.tagline`)}</p>
-              <div className="relative mt-6 h-40 w-full sm:h-48">
+              <div className="relative mt-6 h-[200px] w-full">
                 <Image
                   src={brand.photo}
                   alt={t(`brands.${brand.key}.name`)}

@@ -14,13 +14,14 @@ export async function Hero() {
         priority
         sizes="100vw"
         className="object-cover"
+        style={{ objectPosition: "75% center" }}
       />
 
       <div
         className="absolute inset-0 z-[1]"
         style={{
           background:
-            "linear-gradient(90deg, rgba(15,15,15,0.85) 0%, rgba(15,15,15,0.55) 40%, rgba(15,15,15,0.1) 70%, rgba(15,15,15,0) 100%)",
+            "linear-gradient(90deg, rgba(15,15,15,0.92) 0%, rgba(15,15,15,0.78) 35%, rgba(15,15,15,0.4) 65%, rgba(15,15,15,0.08) 100%)",
         }}
       />
 

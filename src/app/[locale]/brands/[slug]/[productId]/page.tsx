@@ -30,6 +30,7 @@ export default async function BrandProductPage({
   const brandName = t(`brands.${brand.homeKey}.name`);
   const categoryLabel = t(`brandPages.productCategories.${product.categoryKey}`);
   const description = t(`productDescriptions.${product.id}`);
+  const nameCaption = t(`productNames.${product.id}`);
 
   const related = brand.products.filter((item) => item.id !== product.id).slice(0, 3);
 
@@ -91,6 +92,9 @@ export default async function BrandProductPage({
               {categoryLabel}
             </p>
             <h1 className="mt-2 text-3xl font-bold text-graphite md:text-4xl">{product.name}</h1>
+            {nameCaption !== product.name && (
+              <p className="mt-1 text-sm text-graphite/50">{nameCaption}</p>
+            )}
             <p className="mt-4 text-sm text-graphite/50">{product.packSize}</p>
             <p className="mt-5 max-w-md text-base text-graphite/70">{description}</p>
 
@@ -129,6 +133,7 @@ export default async function BrandProductPage({
                   brandSlug={brand.slug}
                   categoryLabel={t(`brandPages.productCategories.${item.categoryKey}`)}
                   requestQuoteLabel={t("featured.requestQuote")}
+                  nameCaption={t(`productNames.${item.id}`)}
                 />
               ))}
             </div>

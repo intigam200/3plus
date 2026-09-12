@@ -210,6 +210,27 @@
       "description": "Organic coconut drink that froths beautifully."
     }
   },
+  "productNames": {
+    "caffeFrappe": "Caffè Frappé",
+    "vanillaSyrup": "Vanilla Syrup",
+    "caramelSyrup": "Caramel Syrup",
+    "blueCuracaoSyrup": "Blue Curaçao Syrup",
+    "grenadineSyrup": "Grenadine Syrup",
+    "saltedCaramelSyrup": "Salted Caramel Syrup",
+    "mangoSyrup": "Mango Syrup",
+    "sfCaramelSyrup": "SF Caramel Syrup",
+    "sfVanillaSyrup": "SF Vanilla Syrup",
+    "darkHotChocolate": "Dark Hot Chocolate",
+    "whiteHotChocolate": "White Hot Chocolate",
+    "originalMatcha": "Original Matcha",
+    "spicedChai": "Spiced Chai",
+    "vanillaChai": "Vanilla Chai",
+    "darkChocolateSauce": "Dark Chocolate Sauce",
+    "whiteChocolateSauce": "White Chocolate Sauce",
+    "oatDrinkBarista": "Oat Drink Barista",
+    "almondDrinkBarista": "Almond Drink Barista",
+    "coconutDrinkBarista": "Coconut Drink Barista"
+  },
   "productDescriptions": {
     "caffeFrappe": "Creamy frappé base for iced coffee drinks.",
     "vanillaSyrup": "Classic vanilla syrup for coffee and desserts.",
@@ -363,10 +384,10 @@
   },
   "why": {
     "heading": "Why businesses choose 3PLUS",
-    "brandsCount": {
-      "value": "3+",
-      "title": "International Brands",
-      "description": "A curated portfolio, growing with every new partnership."
+    "productsCount": {
+      "value": "19+",
+      "title": "Products in Range",
+      "description": "A curated catalogue, growing with every new partnership."
     },
     "response": {
       "value": "24h",
