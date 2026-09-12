@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { SOLUTIONS } from "@/data/solutions";
+import { Reveal } from "@/components/ui/Reveal";
 
 export async function SolutionsSection() {
   const t = await getTranslations("solutions");
@@ -9,22 +10,23 @@ export async function SolutionsSection() {
   return (
     <section id="solutions" className="scroll-mt-24 bg-warmwhite">
       <div className="section-padding mx-auto max-w-content">
-        <div className="mx-auto mb-12 max-w-2xl text-center md:mb-16">
+        <Reveal className="mx-auto mb-12 max-w-2xl text-center md:mb-16">
           <p className="text-sm font-medium uppercase tracking-[0.12em] text-brand-green">
             {t("eyebrow")}
           </p>
           <h2 className="mt-4 text-3xl font-bold text-graphite md:text-4xl">{t("heading")}</h2>
-        </div>
+        </Reveal>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {SOLUTIONS.map(({ slug, homeKey, icon: Icon, photo, comingSoon }) => {
+          {SOLUTIONS.map(({ slug, homeKey, icon: Icon, photo, comingSoon }, index) => {
             const title = t(`${homeKey}.title`);
             const features = comingSoon ? null : (t.raw(`${homeKey}.features`) as string[]);
             const href = `/solutions/${slug}`;
 
             return (
-              <div
+              <Reveal
                 key={slug}
+                delay={index * 100}
                 className={`flex h-full flex-col overflow-hidden rounded-2xl border border-[#E8E8E3] bg-white transition-all duration-300 ${
                   comingSoon ? "opacity-60" : "hover:-translate-y-1 hover:shadow-sm"
                 }`}
@@ -80,7 +82,7 @@ export async function SolutionsSection() {
                     )}
                   </div>
                 </div>
-              </div>
+              </Reveal>
             );
           })}
         </div>

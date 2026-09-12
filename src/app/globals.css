@@ -21,7 +21,7 @@ body {
   h2,
   h3,
   h4 {
-    @apply font-semibold tracking-tightest text-graphite;
+    @apply font-heading font-semibold tracking-tightest text-graphite;
   }
 }
 

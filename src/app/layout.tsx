@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import "./globals.css";
 
@@ -7,6 +7,14 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
+});
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  display: "swap",
+  weight: ["500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -20,7 +28,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html lang={locale}>
-      <body className={`${inter.variable} font-sans antialiased bg-warmwhite text-graphite`}>
+      <body
+        className={`${inter.variable} ${fraunces.variable} font-sans antialiased bg-warmwhite text-graphite`}
+      >
         {children}
       </body>
     </html>

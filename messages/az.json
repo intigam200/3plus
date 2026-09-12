@@ -2,6 +2,9 @@
   "common": {
     "scrollToTop": "Yuxarı qalx"
   },
+  "marquee": {
+    "label": "Rəsmi distribütoru olduğumuz brendlər"
+  },
   "metadata": {
     "title": "3PLUS — Distributorluq · Korporativ Təchizat · Beynəlxalq Təchizat Axtarışı",
     "description": "3PLUS Azərbaycanda HoReCa, korporativ və premium təchizat axtarışı ehtiyacları üçün B2B distributorudur."

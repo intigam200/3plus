@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
+import { Reveal } from "@/components/ui/Reveal";
 
 export async function Hero() {
   const t = await getTranslations("hero");
@@ -26,7 +27,7 @@ export async function Hero() {
       />
 
       <div className="relative z-[2] mx-auto flex min-h-screen max-w-content items-center px-6 pt-24 md:px-10 md:pt-28 lg:px-16">
-        <div className="max-w-xl">
+        <Reveal className="max-w-xl">
           <p className="text-sm font-medium uppercase tracking-wide text-brand-green-soft">
             {t("eyebrow")}
           </p>
@@ -50,7 +51,7 @@ export async function Hero() {
               {t("ctaSecondary")}
             </Link>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

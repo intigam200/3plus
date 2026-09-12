@@ -21,12 +21,22 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Helvetica", "Arial", "sans-serif"],
+        heading: ["var(--font-fraunces)", "Georgia", "serif"],
       },
       maxWidth: {
         content: "1440px",
       },
       letterSpacing: {
         tightest: "-0.03em",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 28s linear infinite",
       },
     },
   },
