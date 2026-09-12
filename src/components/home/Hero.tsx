@@ -39,7 +39,7 @@ export async function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
-              href="/brands"
+              href={{ pathname: "/", hash: "brands" }}
               className="rounded-full bg-white px-7 py-3.5 text-sm font-medium text-graphite transition-colors hover:bg-warmwhite"
             >
               {t("ctaPrimary")}

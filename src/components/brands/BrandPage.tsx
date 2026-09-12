@@ -31,7 +31,10 @@ export async function BrandPage({ brand }: { brand: BrandDef }) {
                 {t("brandPages.breadcrumbHome")}
               </Link>
               <span>/</span>
-              <Link href="/brands" className="transition-colors hover:text-graphite">
+              <Link
+                href={{ pathname: "/", hash: "brands" }}
+                className="transition-colors hover:text-graphite"
+              >
                 {t("brandPages.breadcrumbBrands")}
               </Link>
               <span>/</span>
