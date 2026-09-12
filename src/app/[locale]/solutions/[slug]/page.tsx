@@ -5,6 +5,7 @@ import { CheckCircle2, Headset, MessageCircle, Package, Truck } from "lucide-rea
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { getSolutionBySlug, SOLUTIONS } from "@/data/solutions";
+import { getProductByCatalogId } from "@/data/brands";
 import { ProductCard } from "@/components/ProductCard";
 import { NotifyForm } from "@/components/solutions/NotifyForm";
 
@@ -49,10 +50,15 @@ export default async function SolutionDetailPage({
   const valueProps = comingSoon
     ? []
     : (t.raw(`solutionPages.${detailKey}.valueProps`) as string[]);
-  const products = solution.productIds.map((id) => ({
-    id,
-    ...(t.raw(`productCatalog.${id}`) as ProductCatalogEntry),
-  }));
+  const products = solution.productIds.map((id) => {
+    const match = getProductByCatalogId(id);
+    return {
+      id,
+      ...(t.raw(`productCatalog.${id}`) as ProductCatalogEntry),
+      photo: match?.product.photo,
+      href: match ? `/brands/${match.brand.slug}/${match.product.id}` : undefined,
+    };
+  });
 
   return (
     <>
@@ -160,6 +166,8 @@ export default async function SolutionDetailPage({
                     packSize={product.packSize}
                     description={product.description}
                     ctaLabel={t("featured.requestQuote")}
+                    photo={product.photo}
+                    href={product.href}
                   />
                 ))}
               </div>

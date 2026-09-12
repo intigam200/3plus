@@ -251,3 +251,31 @@ export function getBrandProduct(
   if (!brand || !product) return undefined;
   return { brand, product };
 }
+
+/**
+ * Maps `productCatalog` i18n ids (used by solution pages, which don't carry
+ * a brand slug) to the underlying brand + product entry that has the photo.
+ */
+const PRODUCT_CATALOG_LOOKUP: Record<string, { brandSlug: BrandSlug; productId: string }> = {
+  sweetbirdVanillaSyrup: { brandSlug: "sweetbird", productId: "vanillaSyrup" },
+  sweetbirdCaramelSyrup: { brandSlug: "sweetbird", productId: "caramelSyrup" },
+  sweetbirdCaffeFrappe: { brandSlug: "sweetbird", productId: "caffeFrappe" },
+  sweetbirdGrenadineSyrup: { brandSlug: "sweetbird", productId: "grenadineSyrup" },
+  zumaDarkHotChocolate: { brandSlug: "zuma", productId: "darkHotChocolate" },
+  zumaOriginalMatcha: { brandSlug: "zuma", productId: "originalMatcha" },
+  zumaSpicedChai: { brandSlug: "zuma", productId: "spicedChai" },
+  zumaVanillaChai: { brandSlug: "zuma", productId: "vanillaChai" },
+  zumaDarkChocolateSauce: { brandSlug: "zuma", productId: "darkChocolateSauce" },
+  zumaWhiteChocolateSauce: { brandSlug: "zuma", productId: "whiteChocolateSauce" },
+  bridgeOatBarista: { brandSlug: "the-bridge", productId: "oatDrinkBarista" },
+  bridgeAlmondBarista: { brandSlug: "the-bridge", productId: "almondDrinkBarista" },
+  bridgeCoconutBarista: { brandSlug: "the-bridge", productId: "coconutDrinkBarista" },
+};
+
+export function getProductByCatalogId(
+  catalogId: string,
+): { brand: BrandDef; product: BrandProduct } | undefined {
+  const ref = PRODUCT_CATALOG_LOOKUP[catalogId];
+  if (!ref) return undefined;
+  return getBrandProduct(ref.brandSlug, ref.productId);
+}
