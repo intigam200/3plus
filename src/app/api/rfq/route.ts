@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { canWriteToSupabase, supabase } from "@/lib/supabase";
+import { sendRfqEmail } from "@/lib/email";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -51,6 +52,20 @@ export async function POST(request: Request) {
   } else {
     // Supabase isn't configured yet — log so the enquiry isn't silently lost.
     console.log("RFQ submission (Supabase not configured):", submission);
+  }
+
+  try {
+    await sendRfqEmail({
+      name,
+      company,
+      email,
+      phone: submission.phone,
+      enquiryType: submission.enquiry_type,
+      brandInterest: submission.brand_interest,
+      message,
+    });
+  } catch (error) {
+    console.error("Failed to send RFQ notification email:", error);
   }
 
   return NextResponse.json({ ok: true });

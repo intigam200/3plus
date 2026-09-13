@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { canWriteToSupabase, supabase } from "@/lib/supabase";
+import { sendNotifyEmail } from "@/lib/email";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -39,6 +40,16 @@ export async function POST(request: Request) {
     }
   } else {
     console.log("Notify signup (Supabase not configured):", submission);
+  }
+
+  try {
+    await sendNotifyEmail({
+      company,
+      email,
+      category: submission.category,
+    });
+  } catch (error) {
+    console.error("Failed to send notify signup email:", error);
   }
 
   return NextResponse.json({ ok: true });
